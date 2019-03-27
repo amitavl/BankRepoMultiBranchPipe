@@ -23,9 +23,9 @@ def main():
     print(customer1.get_balance())
     customer1.deposit(100)
     customer1.withdraw(30)
-    print(customer1.get_balance())
+    printcustomer1.get_balance()
 
-    customer2 = BankAccount('Sam', 200)
+   customer2 = BankAccount('Sam', 200)
     print(customer2.get_balance())
 
 if __name__ == "__main__":
